@@ -95,10 +95,11 @@ Vou na segunda sala e toco na lâmpada: se estiver quente, está conectada ao pr
 - - Vou na segunda sala e verifica a segunda lâmpada: se a lâmpada estiver acesa ela é controlada pelo segundo interruptor e consequentemente a lâmpada da terceira sala é controlada pelo interruptor que sobrou. Caso a lampada esteja apagada repito o processo acima de verificar a temperatura: está quente? é controlada pelo primeiro interruptor, está fria? terceiro interruptor.
 <br>
 
-## 5) Escreva um programa que inverta os caracteres de um string.
+## 5°) Escreva um programa que inverta os caracteres de um string.
 
-``` string_original = input("Digite um texto ou sequência numérica para ser invertida: ")
+### Resposta (utilizando a linguagem python):
 
+```
 def inverter_string(string):
     # Inicializa uma string vazia para armazenar a string invertida
     string_invertida = ""
@@ -109,5 +110,6 @@ def inverter_string(string):
 
     return string_invertida
 
+string_original = input("Digite um texto ou sequência numérica para ser invertida: ")
 string_invertida = inverter_string(string_original)
 print("String invertida:", string_invertida)```
