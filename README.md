@@ -88,9 +88,9 @@ Vou na primeira sala e observo a lâmpada:
 
 - - O segundo interruptor que está ligado na sala controla a lâmpada acesa.
 Vou na segunda sala e toco na lâmpada: se estiver quente, está conectada ao primeiro interruptor, se estiver fria, está conectada ao terceiro interruptor, em ambos os casos não se faz necessário a visita a última sala pois sobraria um interruptor apenas para ligar.
-<br>
-<br>
+
 - Se a lâmpada estiver apagada:
+  
 - - Toco na lâmpada para verificar a temperatura, caso esteja quente, então ela é ligada pelo primeiro interruptor que ficou ligado alguns minutos, se estiver fria, ela é ligada pelo terceiro interruptor que permaneceu todo o tempo apagado. 
 - - Vou na segunda sala e verifica a segunda lâmpada: se a lâmpada estiver acesa ela é controlada pelo segundo interruptor e consequentemente a lâmpada da terceira sala é controlada pelo interruptor que sobrou. Caso a lampada esteja apagada repito o processo acima de verificar a temperatura: está quente? é controlada pelo primeiro interruptor, está fria? terceiro interruptor.
 <br>
